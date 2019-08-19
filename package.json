@@ -10,6 +10,7 @@
     "core-js": "^2.6.5",
     "github-markdown-css": "^3.0.1",
     "vue": "^2.6.10",
+    "vue-github-button": "^1.0.8",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {

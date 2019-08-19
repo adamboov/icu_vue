@@ -1,6 +1,7 @@
 <template>
   <div>
     <Menu />
+    <Logo />
     <div class="content markdown-body override">
       <section>
         <h1>996.ICU</h1>
@@ -22,6 +23,7 @@
         <p>Developers' lives matter.</p>
       </section>
     </div>
+    <Star/>
   </div>
 </template>
 

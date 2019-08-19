@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Menu />
+    <Logo />
     <div class="content markdown-body override">
       <section>
         <h1>996.ICU</h1>
@@ -100,6 +101,7 @@
         <p><strong>Developers' lives matter.</strong></p>
       </section>
     </div>
+    <Star />
   </div>
 </template>
 
