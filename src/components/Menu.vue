@@ -4,9 +4,7 @@
           {{ curreutLanguage }}
       </div>
       <ul v-if="menuShow" class="other-languages">
-          <li>English</li>
-          <li>espanol</li>
-          <li>Deutsch</li>
+          <li v-for="(item,index) in otherLanguages" :key="index">{{ item.text }}</li>
       </ul>
   </div>
 </template>
@@ -33,6 +31,9 @@ export default {
     computed : {
         curreutLanguage(){
             return this.languages.filter((item)=> item.name === this.$router.history.current.name)[0].text || '';
+        },
+        otherLanguages(){
+            return this.languages.filter((item)=> item.name !== this.$router.history.current.name);
         }
     }
 }
