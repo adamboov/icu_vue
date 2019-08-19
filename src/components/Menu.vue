@@ -4,7 +4,8 @@
           {{ curreutLanguage }}
       </div>
       <ul v-if="menuShow" class="other-languages">
-          <li v-for="(item,index) in otherLanguages" :key="index">{{ item.text }}</li>
+          <!-- <li v-for="(item,index) in otherLanguages" :key="index">{{ item.text }}</li> -->
+          <router-link :to="'/'+item.name" tag="li" v-for="(item,index) in otherLanguages" :key="index">{{ item.text }}</router-link>
       </ul>
   </div>
 </template>
