@@ -12,7 +12,7 @@ ul {
 }
 body {
   color: #fff;
-  background-color: #de335e;
+  background-color: #3d54c2;
 }
 div .content{
   margin: 0 auto;

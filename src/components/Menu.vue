@@ -47,8 +47,10 @@ export default {
         right: 10px;
         min-width: 80px;
         cursor: pointer;
-        background-color: #de335e;
+        background-color: #35bbc8;
         padding: 0 4px;
+        border-radius: 5px;
+        text-align: center;
     }
     .other-languages{
         margin: 15px 0;
